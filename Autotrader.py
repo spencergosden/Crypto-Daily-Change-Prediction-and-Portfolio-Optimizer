@@ -1,8 +1,6 @@
 import numpy as np
 import pandas as pd
 import coinbase as cb
-import matplotlib.pyplot as plt
-import seaborn as sns
 import json
 import yfinance as yf
 from datetime import datetime, timedelta, timezone
@@ -90,7 +88,6 @@ class asset_window:
 ##############ADJUST HERE############################
 window_length = 7
 lookback_length = 1001
-portfolio_value = 100
 desired_daily_return = 0.01
 weight_limit = 0.14
 rebalancing_threshold = 0.0001
